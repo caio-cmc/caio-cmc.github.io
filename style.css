@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     list-style: none;
+    scroll-behavior:smooth;
 }
 .front {
     background: linear-gradient(rgba(0, 23, 31, 0.5), rgb(0, 23, 31)), url(santos_f_089.jpg);
@@ -14,7 +15,6 @@
 }
 .header {
     color: rgb(238, 235, 211);
-    /* background-color: rgb(0, 168, 232); */
 }
 .header h1 {
     padding: 5px;
