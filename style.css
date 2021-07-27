@@ -1,34 +1,17 @@
 * {
     margin: 0px;
 }
-.frontline {
+.front {
     background: linear-gradient(rgba(0, 23, 31, 0.5), rgb(0, 23, 31)), url(santos_f_089.jpg);
     background-size: cover;
+    padding: 30px;
+    
 }
-.txtfoto {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.txtfoto img {
-    margin-left: 30%;
-    margin-bottom: 50px;
-    margin-top: 25px;
-}
-.txtfoto p {
-    width: 400px;
-    margin-left: 30px;
-}
-p, ul {
-    margin-bottom:10px;
-    display: inline-block;
-    list-style-type: none;
-}
-h2{
+.title {
     color: rgb(0, 168, 232);
     margin-bottom: 10px;
 }
-h1{
+.header {
     color: rgb(238, 235, 211);
     margin-bottom: 10px;
 }
@@ -46,10 +29,19 @@ a {
 a:hover {
     color: rgb(169, 135, 67);
 }
-#main2 {
+.photo {
     border-radius: 500px;
     overflow: hidden;
     right: 50px;
+    width: 300px;
+}
+.totaltext {
+    display: inline-block;
+    width: 500px;
+    vertical-align: 550%;
+}
+.wip {
+    width: 200px;
 }
 #VT {
     background-color: rgb(0, 168, 232);
@@ -76,11 +68,7 @@ ul {
 .contact {
     margin-bottom: 30px;
 }
-header {
-    width: 100%;
-    height: 20px;
-}
-.canais, .interesses, .habilidades {
+.canais, .interesses, .habilidades, .portfolio {
     margin-left: 10%;
     text-align: center;
     padding-left: 0%;
