@@ -140,16 +140,20 @@ a:hover {
 
 .fa-linkedin:hover {
     color: #006699;
+    transition: 0.4s;
 }
 
 .fa-github:hover {
     color: #37383a;
+    transition: 0.4s;
 }
 
 .fa-instagram:hover {
-    color: #8134af
+    color: #6d59c0;
+    transition: 0.4s;
 }
 
 .fa-facebook:hover {
     color: #1877f2;
+    transition: 0.4s;
 }
