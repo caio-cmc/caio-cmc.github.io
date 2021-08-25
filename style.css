@@ -3,31 +3,7 @@
     list-style: none;
     scroll-behavior:smooth;
 }
-.front {
-    background: linear-gradient(rgba(0, 23, 31, 0.5), rgb(0, 23, 31)), url(santos_f_089.jpg);
-    background-size: cover;
-    padding: 30px;
-    
-}
-.title {
-    color: rgb(0, 168, 232);
-    margin-bottom: 10px;
-}
-.header {
-    color: rgb(238, 235, 211);
-}
-.header h1 {
-    padding: 5px;
-    font-size: 35px;
-}
-.navigation {
-    text-align: left;
-    margin: 5px;
-}
-.canais, .interesses, .habilidades, .portfolio {
-    padding-inline: 9%;
 
-}
 body {
     background-color: rgb(0, 23, 31);
     text-align: center;
@@ -35,67 +11,145 @@ body {
     font-weight: 540;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.division {
-    width: 100%;
-    height: 300px;
-}
-.greet {
-    color: rgb(238, 235, 211);
-}
+
 a {
   text-decoration: none;
   color: rgb(247, 197, 72);
 }
-a:hover {
-    color: rgb(169, 135, 67);
+.front {
+    background: linear-gradient(rgba(0, 23, 31, 0.5), rgb(0, 23, 31)), url(santos_f_089.jpg);
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
+
+.title {
+    color: rgb(0, 168, 232);
+    margin-bottom: 10px;
+}
+
+.header {
+    color: rgb(238, 235, 211);
+}
+
+.header h1 {
+    padding: 5px;
+    font-size: 35px;
+}
+
+.navigation {
+    text-align: left;
+    margin: 5px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+}
+
 .photo {
-    border-radius: 500px;
-    overflow: hidden;
-    right: 50px;
+    border-radius: 50%;
     width: 300px;
+    height: 300px;
 }
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 25px;
+    color: rgb(238, 235, 211);
+    padding: 10px 5px;
+}
+
 .totaltext {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 500px;
-    vertical-align: 550%;
+    margin-left: 30px;
 }
+
+.canais, .interesses, .habilidades, .portfolio {
+    padding-inline: 9%;
+}
+
+.division {
+    width: 100%;
+    height: 300px;
+}
+
+.hab {
+    padding-top: 15px;
+}
+
 h3 {
     color: rgb(0, 168, 232);
     margin-bottom: 15px;
 }
+
 .allskills {
     margin-top: 55px;
 }
+
 .softs, .hards {
     display: inline-block;
     margin: 0% 10%;
 }
+
 .wip {
     width: 200px;
 }
+
 #VT {
     background-color: rgb(0, 168, 232);
     padding: 5px 5px;
     border-radius: 5px;
     color: white;
 }
-#VT:hover {
-    background-color:rgb(0, 126, 167) ;
-}
+
+
 ul {
     text-align: center;
     padding: 0px 0px;
 }
+
 #santos, #trybe {
     color: rgb(238, 235, 211);
 }
+
+a:hover {
+    color: rgb(169, 135, 67);
+}
+
+#VT:hover {
+    background-color:rgb(0, 126, 167) ;
+}
+
 #santos:hover{
     color: rgb(169, 135, 67);
 }
+
 #trybe:hover {
     color:#2fc18c;
 }
-.contact {
-    margin-bottom: 30px;
+
+.fa-linkedin:hover {
+    color: #006699;
+}
+
+.fa-github:hover {
+    color: #37383a;
+}
+
+.fa-instagram:hover {
+    color: #8134af
+}
+
+.fa-facebook:hover {
+    color: #1877f2;
 }
